@@ -1,4 +1,4 @@
-@media(max-width: 1000px){
+/*@media(max-width: 1000px){
 	.nav_ul{
 		position: fixed;
 		top: 200px;
@@ -46,8 +46,32 @@
 	}
 }
 @media(max-width:685px) {
-  /* For mobile phones: */
   .sec1_container_box{
     width:100%;
   }
+}
+*/
+
+/* Smartphones (portrait and landscape) ----------- */
+@media(min-device-width : 320px) and (max-device-width : 480px) {
+/* Styles */
+}
+
+@media(min-device-width : 480px) and (max-device-width : 768px) {
+/* Styles */
+} 
+
+/* iPads (portrait and landscape) ----------- */
+@media(min-device-width : 768px) and (max-device-width : 1024px) {
+/* Styles */
+}
+
+/* Desktops and laptops ----------- */
+@media(min-width : 1224px) {
+/* Styles */
+}
+
+/* Large screens ----------- */
+@media(min-width : 1824px) {
+/* Styles */
 }
