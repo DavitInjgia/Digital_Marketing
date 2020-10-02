@@ -393,6 +393,7 @@
 .sec5{
 	max-width: 1200px;
 	margin: 0 auto;
+
 }
 .sec5_p p{
 	font-size: 40px;
@@ -402,7 +403,8 @@
 }
 .sec5_photos{
 	display: flex;
-	justify-content: space-between;
+	justify-content: space-around;
+	flex-wrap: wrap;
 }
 .photo_class{
 	max-width: 250px;
@@ -461,7 +463,7 @@
 
 .sec7{
 	background-color: blue;
-	height: 400px;
+	height:300px;
 }
 .sec7_container{
 	max-width: 1200px;
@@ -499,24 +501,24 @@
 	margin-right: 5px;
 }
 .sec7_adress{
-	width: 22%;
+	width: 250px;
 	display: flex;
 	justify-content: flex-start;
 }
 
 .sec7_phone{
-	width: 20%;
+	width: 250px;
 	display: flex;
 	justify-content: flex-start;
 }
 
 .sec7_email{
-	width: 20%;
+	width: 250px;
 	display: flex;
 	justify-content: flex-start;
 }
 .sec7_socialMedia{
-	width: 20%;
+	width: 250px;
 }
 .sec7_socialMedia h3{
 	font-size: 24px;
