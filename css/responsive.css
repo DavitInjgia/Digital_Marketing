@@ -1,70 +1,4 @@
-/*@media(max-width: 1000px){
-	.nav_ul{
-		position: fixed;
-		top: 200px;
-		left: -100%;
-		background: #2E2E2E;
-		height: 100%;
-		width: 100%;
-		display: flex;
-		flex-direction: column;
-		align-items: center;
-	}
-	#isVisible:checked ~ .nav_ul{
-		left: 0%;
-	}
-	.btn{
-		display: block;
-	}
-}
 
-@media(max-width: 700px){
-	.navigation{
-		padding: 0px;
-	}
-}
-
-@media(max-width: 1000px){
-	.sec1_container_box{
-		width: 180px;
-		height: 350px;
-	}
-}
-@media(max-width: 960px){
-
-	.sec1_container_box{
-		width: 240px;
-		height: 300px;
-	}
-}
-
-@media(max-width: 750px){
-
-	.sec1_container_box{
-		width: 320px;
-		height: 300px;
-	}
-}
-@media(max-width:685px) {
-  .sec1_container_box{
-    width:100%;
-  }
-}
-*/
-
-/* Smartphones (portrait and landscape) ----------- */
-@media(min-device-width : 320px) and (max-device-width : 480px) {
-	/* Styles */
-}
-
-@media(min-device-width : 480px) and (max-device-width : 768px) {
-	/* Styles */
-} 
-
-/* iPads (portrait and landscape) ----------- */
-@media(min-device-width : 768px) and (max-device-width : 1024px) {
-	/* Styles */
-}
 
 /* Desktops and laptops ----------- */
 
@@ -90,15 +24,14 @@
 	.sec2_div_img{
 		width: 350px;
 	}
+	.sec{
+		height: 100% auto;
+	}
 	.sec_div_text h3{
-		font-size: 30px;
+		
 	}
 	.sec_div_text_p1{
-		font-size: 45px;
-		margin-top: 30px;
-	}
-	.sec_div_text_p2{
-		font-size: 45px;
+		font-size: 55px;
 	}
 
 	.read_more{
@@ -119,13 +52,18 @@
 		max-width: 200px;
 		height: auto;	
 	}
-	.sec7{
+	/*.sec7{
 		height:600px;
-	}
+	}*/
 	.sec7_info{
 		flex-wrap: wrap;
 	}
-	
+	/*.sec7_container{
+		max-width: 600px;
+	}*/
+	.sec3_video{
+		height: 40%;
+	}
 }
 
 
@@ -146,12 +84,17 @@
 	.sec_div_text_p2{
 		display: none;
 	}
-
+	.sec_div{
+		background-size: 130% auto;
+	}
 	.read_more{
 		display: none;
 	}
 	.read_more img{
 		display: none;
+	}
+	.sec3_video{
+		height: 30%;
 	}
 	.sec4_container{
 		flex-wrap: wrap;
@@ -200,6 +143,9 @@
 	.sec7_info{
 		flex-direction: column;
 		align-items: center;
+	}
+	.sec3_video{
+		height: 15%;
 	}
 }
 
