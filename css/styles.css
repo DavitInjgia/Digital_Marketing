@@ -8,6 +8,7 @@ body{
 }
 .header_color{
 	background-color: #d3d3d3;
+	
 }
 .navigation{
 	display: flex;
@@ -34,7 +35,7 @@ body{
 	display: flex;
 }
 .nav_a{
-	color: white;
+	color: black;
 	font-size: 25px;
 	padding: 10px 10px;
 	border-radius: 5px;
@@ -45,14 +46,17 @@ body{
 	margin: 0 5px;
 }
 /*Section*/
+/*###################################################*/
+/*###################################################*/
 /*Slider*/
+
 .slideshow-container {
 	max-width: 100%;
 	position: relative;
 	margin: auto;
 }
 
-/* Next & previous buttons */
+
 .prev, .next {
 	cursor: pointer;
 	position: absolute;
@@ -225,9 +229,15 @@ body{
 	background-color: red;
 }
 
+
+
 /*Section 1*/
+/*###################################################*/
+/*###################################################*/
+
 .sec1_main_div{
 	position: relative;
+	padding-bottom: 90px;
 }
 .sec1_main_div{
 	padding-left: 2%;
@@ -413,6 +423,8 @@ body{
 }
 
 /*Section 2*/
+/*###################################################*/
+/*###################################################*/
 
 .sec2_h3{
 	font-weight: 700;
@@ -545,11 +557,10 @@ body{
 /*section 4*/
 
 .sec4{
-
+	background-color: #262e41;
 }
 
 .sec4_container{
-	background-color: #262e41;
 	max-width: 1200px;
 	padding: 90px 10px 90px 10px;
 	margin: 0 auto;
@@ -770,13 +781,15 @@ body{
 
 /*section 7*/
 
-.sec7{
+
+footer{
 	background: #262e41;
 	padding: 70px 0;
+	bottom: 0;
+	width: 100%;
 }
-.sec7_container{
-	max-width: 1200px;
-	margin: 0 auto;
+.sec7_info{
+	display: flex;
 }
 
 .sec7_contact_us{
@@ -796,7 +809,8 @@ body{
 
 .sec7_info{
 	display: flex;
-	justify-content: flex-start;
+	justify-content: space-around;
+	flex-wrap: wrap;
 	color: white;
 	padding: 10px;
 }
@@ -815,6 +829,7 @@ body{
 .sec7_container i{
 	font-size: 30px;
 	margin-right: 5px;
+	color: white;
 }
 .sec7_adress{
 	width: 300px;
@@ -851,14 +866,6 @@ body{
 	color: white;
 }
 
-
-
-
-
-
-
-
-
-
-
-
+.fa:hover {
+  opacity: 0.7;
+}

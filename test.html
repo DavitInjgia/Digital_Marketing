@@ -1,254 +1,37 @@
 <!DOCTYPE html>
 <html>
-<head>
-	<title>Digital Marketing</title>
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<script src="https://kit.fontawesome.com/6de6aa5275.js" crossorigin="anonymous"></script>
-	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-	<link rel="stylesheet" typ e="text/css" href="css/reset.css">
-	<link rel="stylesheet" type="text/css" href="css/fonts.css">
-	<link rel="stylesheet" type="text/css" href="css/styles.css">
-	<link rel="stylesheet" type="text/css" href="css/responsive.css">
-
-	<style>
-
-		/* Slideshow container */
-		.slideshow-container {
-			max-width: 100%;
-			position: relative;
-			margin: auto;
-		}
-
-		/* Next & previous buttons */
-		.prev, .next {
-			cursor: pointer;
-			position: absolute;
-			top: 50%;
-			width: auto;
-			padding: 16px;
-			margin-top: -22px;
-			color: white;
-			font-weight: bold;
-			font-size: 18px;
-			transition: 0.6s ease;
-			border-radius: 0 3px 3px 0;
-			user-select: none;
-		}
-
-		.next {
-			right: 0;
-			border-radius: 3px 0 0 3px;
-		}
-
-		.prev:hover, .next:hover {
-			background-color: rgba(0,0,0,0.8);
-		}
-
-		.text_1 {
-			color: #f2f2f2;
-			font-size: 25px;
-			text-transform: uppercase;
-			color: #272f43;
-			font-family: 'Roboto';
-			font-weight: 300;
-			position: absolute;
-			bottom: 60%;
-			left: 15%;
-			width: 100%;
-			padding: 0 0 10px 0;
-		}
-		.text_2 {
-			font-size: 115px;
-			text-transform: uppercase;
-			line-height: 110px;
-			color: #272f43;
-			font-family: 'Roboto';
-			font-weight: 700;
-			position: absolute;
-			width: 100%;
-			bottom: 45%;
-			left: 15%;
-			padding: 0 0 10px 0;
-		}
-		.text_3 {
-			font-size: 75px;
-			line-height: 75px;
-			color: #272f43;
-			font-family: 'Roboto';
-			font-weight: 500;
-			position: absolute;
-			width: 100%;
-			bottom: 35%;
-			left: 15%;
-			padding: 0 0 10px 0;
-		}
-
-		.read_more_first{
-			max-width: 200px;
-			height: auto;
-			position: absolute;
-			bottom: 15%;
-			left: 15%;
-			display: flex;
-			flex-direction: column;
-			justify-content: space-between;
-		}
-		.read_more_first_img{
-			content: "";
-			width: 185px;
-			height: 15px;
-			background: url('images/or.png');
-			background-size: 100% 100%;
-
-		}
-
-		.read_more_first_box{
-			width: 200px;
-			height: 65px;
-			font-weight: 200;
-			background-color: #272f43;
-			color: white;
-			font-size: 17px;
-			text-align: center;
-			text-transform: uppercase;
-			line-height: 65px;
-			font-family: 'Roboto';
-			transition: ease all 0.5s;
-		}
-		.dot {
-			cursor: pointer;
-			height: 15px;
-			width: 15px;
-			margin: 0 2px;
-			background-color: #bbb;
-			border-radius: 50%;
-			display: inline-block;
-			transition: background-color 0.6s ease;
-		}
-		.dots{
-			text-align: center;
-		}
-		.active, .dot:hover {
-			background-color: #717171;
-		}
-
-		/* Fading animation */
-		.fade {
-			-webkit-animation-name: fade;
-			-webkit-animation-duration: 1.5s;
-			animation-name: fade;
-			animation-duration: 1.5s;
-		}
-
-		@-webkit-keyframes fade {
-			from {opacity: .4} 
-			to {opacity: 1}
-		}
-
-		@keyframes fade {
-			from {opacity: .4} 
-			to {opacity: 1}
-		}
-
-		/* On smaller screens, decrease text size */
-		@media only screen and (max-width: 300px) {
-			.prev, .next,.text {font-size: 11px}
-		}
-	</style>
-</head>
-<body>
-
-	<div class="slideshow-container">
-
-		<div class="mySlides fade">
-			<img src="images/slider_1.jpg" style="width: 100%">
-			<div class="text_1">GROW YOUR BUSINESS</div>
-			<div class="text_2">DIGITAL</div>
-			<div class="text_3">Marketing</div>
-			<a href="#">
-				<div class="read_more_first">
-					<div class="read_more_first_img"></div>
-					<div class="read_more_first_box">
-						<p>READ MORE</p>
-					</div>
-				</div>
-			</a>
-		</div>
-
-		<div class="mySlides fade">
-			<img src="images/slider_1.jpg" style="width: 100%">
-			<div class="text_1">GROW YOUR BUSINESS</div>
-			<div class="text_2">DIGITAL</div>
-			<div class="text_3">Marketing</div>
-			<a href="#">
-				<div class="read_more_first">
-					<div class="read_more_first_img"></div>
-					<div class="read_more_first_box">
-						<p>READ MORE</p>
-					</div>
-				</div>
-			</a>
-		</div>
-
-		<div class="mySlides fade">
-			<img src="images/slider_1.jpg" style="width: 100%">
-			<div class="text_1">GROW YOUR BUSINESS</div>
-			<div class="text_2">DIGITAL</div>
-			<div class="text_3">Marketing</div>
-			<a href="#">
-				<div class="read_more_first">
-					<div class="read_more_first_img"></div>
-					<div class="read_more_first_box">
-						<p>READ MORE</p>
-					</div>
-				</div>
-			</a>
-		</div>
-
-		<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
-		<a class="next" onclick="plusSlides(1)">&#10095;</a>
-
-	</div>
-	<br>
-
-	<div class="dots">
-		<span class="dot" onclick="currentSlide(1)"></span> 
-		<span class="dot" onclick="currentSlide(2)"></span> 
-		<span class="dot" onclick="currentSlide(3)"></span> 
-	</div>
-
-	<script>
-		var slideIndex = 1;
-		showSlides(slideIndex);
-
-		function plusSlides(n) {
-			showSlides(slideIndex += n);
-		}
-
-		function currentSlide(n) {
-			showSlides(slideIndex = n);
-		}
-
-		function showSlides(n) {
-			var i;
-			var slides = document.getElementsByClassName("mySlides");
-			var dots = document.getElementsByClassName("dot");
-			if (n > slides.length) {slideIndex = 1}    
-				if (n < 1) {slideIndex = slides.length}
-					for (i = 0; i < slides.length; i++) {
-						slides[i].style.display = "none";  
-					}
-					for (i = 0; i < dots.length; i++) {
-						dots[i].className = dots[i].className.replace(" active", "");
-					}
-					slides[slideIndex-1].style.display = "block";  
-					dots[slideIndex-1].className += " active";
-				}
-
-
-			</script>
-
-		</body>
-		</html> 
-
+  <head>
+    <style>
+       /* Set the size of the div element that contains the map */
+      #map {
+        height: 400px;  /* The height is 400 pixels */
+        width: 100%;  /* The width is the width of the web page */
+       }
+    </style>
+  </head>
+  <body>
+    <h3>My Google Maps Demo</h3>
+    <!--The div element for the map -->
+    <div id="map"></div>
+    <script>
+// Initialize and add the map
+function initMap() {
+  // The location of Uluru
+  var uluru = {lat: -25.344, lng: 131.036};
+  // The map, centered at Uluru
+  var map = new google.maps.Map(
+      document.getElementById('map'), {zoom: 4, center: uluru});
+  // The marker, positioned at Uluru
+  var marker = new google.maps.Marker({position: uluru, map: map});
+}
+    </script>
+    <!--Load the API from the specified URL
+    * The async attribute allows the browser to render the page while the API loads
+    * The key parameter will contain your own API key (which is not needed for this tutorial)
+    * The callback parameter executes the initMap() function
+    -->
+    <script defer
+    src="https://maps.googleapis.com/maps/api/js?key=YOUR_API_KEY&callback=initMap">
+    </script>
+  </body>
+</html>
