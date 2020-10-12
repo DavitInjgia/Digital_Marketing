@@ -40,11 +40,13 @@
 		</nav>
 	</header>
 	<section class="sec">
-		<div class="sec_div">
-			<div class="sec_div_text">
-				<h3>GROW YOUR BUSINESS</h3>
-				<p class="sec_div_text_p1">DIGITAL</p>
-				<p class="sec_div_text_p2">Marketing</p>
+		<div class="slideshow-container">
+
+			<div class="mySlides fade">
+				<img src="images/slider_1.jpg" style="width: 100%">
+				<div class="text_1">GROW YOUR BUSINESS</div>
+				<div class="text_2">DIGITAL</div>
+				<div class="text_3">Marketing</div>
 				<a href="#">
 					<div class="read_more_first">
 						<div class="read_more_first_img"></div>
@@ -54,7 +56,83 @@
 					</div>
 				</a>
 			</div>
+
+			<div class="mySlides fade">
+				<img src="images/slider_1.jpg" style="width: 100%">
+				<div class="text_1">GROW YOUR BUSINESS</div>
+				<div class="text_2">DIGITAL</div>
+				<div class="text_3">Marketing</div>
+				<a href="#">
+					<div class="read_more_first">
+						<div class="read_more_first_img"></div>
+						<div class="read_more_first_box">
+							<p>READ MORE</p>
+						</div>
+					</div>
+				</a>
+			</div>
+
+			<div class="mySlides fade">
+				<img src="images/slider_1.jpg" style="width: 100%">
+				<div class="text_1">GROW YOUR BUSINESS</div>
+				<div class="text_2">DIGITAL</div>
+				<div class="text_3">Marketing</div>
+				<a href="#">
+					<div class="read_more_first">
+						<div class="read_more_first_img"></div>
+						<div class="read_more_first_box">
+							<p>READ MORE</p>
+						</div>
+					</div>
+				</a>
+			</div>
+
+			<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+			<a class="next" onclick="plusSlides(1)">&#10095;</a>
+
 		</div>
+		<br>
+
+		<div class="dots">
+			<span class="dot" onclick="currentSlide(1)"></span> 
+			<span class="dot" onclick="currentSlide(2)"></span> 
+			<span class="dot" onclick="currentSlide(3)"></span> 
+		</div>
+
+		<script>
+			var slideIndex = 1;
+			showSlides(slideIndex);
+
+			function plusSlides(n) {
+				showSlides(slideIndex += n);
+			}
+
+			function currentSlide(n) {
+				showSlides(slideIndex = n);
+			}
+
+			function showSlides(n) {
+				var i;
+				var slides = document.getElementsByClassName("mySlides");
+				var dots = document.getElementsByClassName("dot");
+				if (n > slides.length) {
+					slideIndex = 1
+				}    
+				if (n < 1) {
+					slideIndex = slides.length
+				}
+				for (i = 0; i < slides.length; i++) {
+					slides[i].style.display = "none";  
+				}
+				for (i = 0; i < dots.length; i++) {
+					dots[i].className = dots[i].className.replace(" active", "");
+				}
+				slides[slideIndex-1].style.display = "block";  
+				dots[slideIndex-1].className += " active";
+			}
+
+
+		</script>
 	</section>
 	<section class="sec1">
 		<div class="sec1_main_div">
@@ -161,17 +239,37 @@
 			<p class="sec5_p2">CHECK SOME FROM HERE</p>
 		</div>
 		<div class="sec5_photos">
-			<div>
+			<div class="sec5_container">
 				<img class="photo_class" src="images/blog1.jpg" alt="blog">
+				<div class="overlay">
+    				<div class="slide_text">
+    					<img src="images/search_icon.png" alt="Search icon">
+    				</div>
+  				</div>
 			</div>
-			<div>
+			<div class="sec5_container">
 				<img class="photo_class" src="images/blog2.jpg" alt="blog">
+				<div class="overlay">
+    				<div class="slide_text">
+    					<img src="images/search_icon.png" alt="Search icon">
+    				</div>
+  				</div>
 			</div>
-			<div>
+			<div class="sec5_container">
 				<img class="photo_class" src="images/blog3.jpg" alt="blog">
+				<div class="overlay">
+    				<div class="slide_text">
+    					<img src="images/search_icon.png" alt="Search icon">
+    				</div>
+  				</div>
 			</div>
-			<div>
+			<div class="sec5_container">
 				<img class="photo_class" src="images/blog4.jpg" alt="blog">
+				<div class="overlay">
+    				<div class="slide_text">
+    					<img src="images/search_icon.png" alt="Search icon">
+    				</div>
+  				</div>
 			</div>
 		</div>
 		<p class="sec5_text">GET IN TOUCH</p>
