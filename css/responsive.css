@@ -32,7 +32,7 @@
 		padding-bottom: 15px;
 		background-color: white;
 	}
-/*Section*/
+	/*Section*/
 	.sec{
 		height: 500px;
 	}	
@@ -48,29 +48,29 @@
 		font-size: 42px;
 	}
 
-/*Section 1*/
+	/*Section 1*/
 	.sec1_main_div{
 		padding-bottom: 90px;
 		padding-top: 90px;
 	}
 	.sec1_2box_bottom{
 		width: 92px;
-	    height: 30px;
-	    background: url(../images/das_bg.png);
-	    content: "";
-	    display: block;
-	    position: absolute;
-	    right: 0;
-	    bottom: 60px;
-	    left: 30px;
+		height: 30px;
+		background: url(../images/das_bg.png);
+		content: "";
+		display: block;
+		position: absolute;
+		right: 0;
+		bottom: 60px;
+		left: 30px;
 	}
 
-/*Section 2*/
+	/*Section 2*/
 	.sec2_h2{
 		font-size: 28px;
 		font-weight: 300;
-    	line-height: 24px;
-    	color: #fc301e;
+		line-height: 24px;
+		color: #fc301e;
 	}
 	.sec2_div_text_h3{
 		justify-content: center;
@@ -84,10 +84,10 @@
 	}
 	.sec3_h3{
 		text-align: center;
-    	width: 100%;
-    	font-size: 32px;
-    	line-height: normal;
-    	margin-bottom: 20px;
+		width: 100%;
+		font-size: 32px;
+		line-height: normal;
+		margin-bottom: 20px;
 	}
 }
 
@@ -111,8 +111,8 @@
 
 	.sec1_h3{
 		font-size: 30px;
-    	line-height: normal;
-    	margin-bottom: 20px;
+		line-height: normal;
+		margin-bottom: 20px;
 	}
 	
 	.sec1_container{
@@ -121,24 +121,24 @@
 	}
 	.sec1_2box_top{
 		width: 92px;
-	    height: 30px;
-	    background: url(../images/das_bg.png);
-	    content: "";
-	    display: block;
-	    position: absolute;
-	    top: 40px;
-	    right: 30px;
+		height: 30px;
+		background: url(../images/das_bg.png);
+		content: "";
+		display: block;
+		position: absolute;
+		top: 40px;
+		right: 30px;
 	}
 	.sec1_2box_bottom{
 		width: 92px;
-	    height: 30px;
-	    background: url(../images/das_bg.png);
-	    content: "";
-	    display: block;
-	    position: absolute;
-	    right: 0;
-	    bottom: 60px;
-	    left: 30px;
+		height: 30px;
+		background: url(../images/das_bg.png);
+		content: "";
+		display: block;
+		position: absolute;
+		right: 0;
+		bottom: 60px;
+		left: 30px;
 	}
 	/*Section 2*/
 	.sec2_div{
@@ -147,8 +147,8 @@
 	.sec2_h2{
 		font-size: 28px;
 		font-weight: 300;
-    	line-height: 24px;
-    	color: #fc301e;
+		line-height: 24px;
+		color: #fc301e;
 	}
 	.sec2_div_text_h3{
 		justify-content: center;
@@ -162,26 +162,26 @@
 	}
 	.sec3_h3{
 		text-align: center;
-    	width: 100%;
-    	font-size: 32px;
-    	line-height: normal;
-    	margin-bottom: 20px;
+		width: 100%;
+		font-size: 32px;
+		line-height: normal;
+		margin-bottom: 20px;
 	}
 	/*Section 4*/
 
 	.sec4_container_p1{
 		text-align: center;
-    	width: 100%;
-    	font-size: 26px;
-    	line-height: normal;
-    	margin-bottom: 5px;
+		width: 100%;
+		font-size: 26px;
+		line-height: normal;
+		margin-bottom: 5px;
 	}
 	.sec4_container_p2{
 		text-align: center;
-    	width: 100%;
-    	font-size: 30px;
-    	line-height: normal;
-    	margin-bottom: 20px;
+		width: 100%;
+		font-size: 30px;
+		line-height: normal;
+		margin-bottom: 20px;
 	}
 	.sec4_form{
 		flex-direction: column;
@@ -189,31 +189,31 @@
 	}
 	.sec4_text{
 		width: 100%;
-	    height: 60px;
-	    padding: 15px 20px;
-	    border: none;
-	    float: left;
-	    margin: 0;
-	    font-size: 18px;
-	    font-weight: 400;
-	    margin-bottom: 20px;
+		height: 60px;
+		padding: 15px 20px;
+		border: none;
+		float: left;
+		margin: 0;
+		font-size: 18px;
+		font-weight: 400;
+		margin-bottom: 20px;
 	}
 	.sec5_p1{
 		font-size: 26px;
 		font-weight: 300;
-    	line-height: 24px;
+		line-height: 24px;
 	}
 	.sec5_p2{
 		text-align: center;
-    	width: 100%;
-    	font-size: 34px;
-    	line-height: normal;
-    	margin-bottom: 20px;
+		width: 100%;
+		font-size: 34px;
+		line-height: normal;
+		margin-bottom: 20px;
 	}
 	.sec5_text{
 		font-size: 30px;
-    	line-height: normal;
-   		margin-bottom: 20px;
+		line-height: normal;
+		margin-bottom: 20px;
 	}
 	/*Section 6*/
 	.sec6{
@@ -236,67 +236,91 @@
 
 	.sec7_contact_us{
 		font-size: 30px;
-    	line-height: normal;
-    	margin-bottom: 20px;
+		line-height: normal;
+		margin-bottom: 20px;
 	}
 	
-
-
+}
+@media (max-width: 600px) {
+	.topnav a {
+		display: none;
+	}
+	.topnav a.icon {
+		display: block;
+	}
 }
 
-@media( max-width : 480px) {
-	.sec{
-		height: 300px;
+@media(max-width: 600px) {
+	.topnav.responsive {position: relative;}
+	.topnav.responsive .icon {
+		position: absolute;
+		right: 0;
+		top: 0;
 	}
-	.sec7_info{
+	.topnav.responsive a, a.icon {
+		display: flex;
 		flex-direction: column;
-		align-items: center;
+		text-align: left;
 	}
-	.text_1{
-		display: none;
-	}
-	.text_2{
-		display: none;
-	}
-	.text_3{
-		display: none;
-	}
-	.read_more_first{
-		display: none;
-	}
-	.sec1_container1{
-		width: 100%;
-	}
-	.sec1_container_box1{
-		width: 30%;
-	}
-	.sec1_container2{
-		width: 100%;
-	}
-	.sec1_container_box2{
-		width: 30%;
-	}
-	.sec1_container3{
-		width: 100%;
-	}
-	.sec1_container_box3{
-		width: 30%;
-	}
-	.sec1_container4{
-		width: 100%;
-	}
-	.sec1_container_box4{
-		width: 30%;
-	}
-	.photo_class{
-		max-width: 100%;
-	}
-}
+  }
+
+  @media( max-width : 480px) {
+  	.sec{
+  		height: 300px;
+  	}
+  	.sec7_info{
+  		flex-direction: column;
+  		align-items: center;
+  	}
+  	.text_1{
+  		display: none;
+  	}
+  	.text_2{
+  		display: none;
+  	}
+  	.text_3{
+  		display: none;
+  	}
+  	.read_more_first{
+  		display: none;
+  	}
+  	.sec1_container1{
+  		width: 100%;
+  	}
+  	.sec1_container_box1{
+  		width: 30%;
+  	}
+  	.sec1_container2{
+  		width: 100%;
+  	}
+  	.sec1_container_box2{
+  		width: 30%;
+  	}
+  	.sec1_container3{
+  		width: 100%;
+  	}
+  	.sec1_container_box3{
+  		width: 30%;
+  	}
+  	.sec1_container4{
+  		width: 100%;
+  	}
+  	.sec1_container_box4{
+  		width: 30%;
+  	}
+  	.photo_class{
+  		max-width: 100%;
+  	}
+  }
 
 
-@media( max-width : 320px) {
-	/*Header*/
-.sec{
-		height: 250px;
-	}
-}
+  @media( max-width : 320px) {
+  	/*Header*/
+  	.sec{
+  		height: 250px;
+  	}
+  	.sec7_socialMedia_text{
+  		width: 250px;
+  		flex-wrap: wrap;
+  	}
+  }

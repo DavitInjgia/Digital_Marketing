@@ -20,26 +20,17 @@
 			<div>
 				<a href="#"><img class="main_logo" src="images/main_logo.png" alt="main Logo"></a>
 			</div>
-			<div>
-				<input type="checkbox" id = "check" name="box">
-				<label for="check" class="btn">
-					<i class="fas fa-bars"></i>
-				</label>
+
+			<div class="topnav" id="myTopnav">
+				<a href="#home">Home</a>
+				<a href="#news">News</a>
+				<a href="#contact">Contact</a>
+				<a href="#about">About</a>
+				<a href="javascript:void(0);" class="icon" onclick="myFunction()">
+					<i class="fa fa-bars"></i>
+				</a>
 			</div>
-			<ul class="nav_ul">
-				<li class="nav_li">
-					<a class="nav_a" href="#">Home</a>
-				</li>
-				<li class="nav_li">
-					<a class="nav_a" href="#">About</a>
-				</li>
-				<li class="nav_li">
-					<a class="nav_a" href="#">Services</a>
-				</li>
-				<li class="nav_li">
-					<a class="nav_a" href="#">Contact us</a>
-				</li>
-			</ul>
+
 		</nav>
 	</header>
 	<section class="sec">
@@ -157,7 +148,7 @@
 					<div class="sec1_container_box3"></div>
 					<h3>ON PAGE SEO</h3>
 					<p>It is a long established fact that a reader will be distracted by the readable content..</p>
-					
+
 				</div>
 				<div class="sec1_container4">
 					<div class="sec1_container_box4"></div>
@@ -169,7 +160,7 @@
 			<div class="sec1_2box_bottom">
 			</div>
 		</div>
-		
+
 	</section>
 	<section class="sec2">
 		<h2 class="sec2_h2">INCREASE YOUR CLIENT FOR</h2>
@@ -349,7 +340,17 @@
 		window.addEventListener("load", function () {
 			const loader = document.querySelector(".loader");
     		loader.className += " hidden"; // class "loader hidden"
-			});
-</script>
+    	});
+    </script>
+    <script>
+    	function myFunction() {
+    		var x = document.getElementById("myTopnav");
+    		if (x.className === "topnav") {
+    			x.className += " responsive";
+    		} else {
+    			x.className = "topnav";
+    		}
+    	}
+    </script>
 </body>
 </html>
