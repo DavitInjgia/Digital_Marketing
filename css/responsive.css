@@ -258,8 +258,8 @@
 		top: 0;
 	}
 	.topnav.responsive a, a.icon {
-		display: flex;
-		flex-direction: column;
+		display: block;
+		float: none;
 		text-align: left;
 	}
   }
