@@ -12,10 +12,13 @@
 	<link rel="stylesheet" type="text/css" href="css/responsive.css">
 </head>
 <body>
+	<div class="loader">
+		<img src="images/loader.gif" alt="Loading..." />
+	</div>
 	<header class="header_color">
 		<nav class="navigation">
 			<div>
-				<a href="#"><img class="main_logo" src="images/main_logo.png"></a>
+				<a href="#"><img class="main_logo" src="images/main_logo.png" alt="main Logo"></a>
 			</div>
 			<div>
 				<input type="checkbox" id = "check" name="box">
@@ -43,7 +46,7 @@
 		<div class="slideshow-container">
 
 			<div class="mySlides fade">
-				<img src="images/slider_1.jpg" style="width: 100%">
+				<img src="images/slider_1.jpg" style="width: 100%" alt="slider logo">
 				<div class="text_1">GROW YOUR BUSINESS</div>
 				<div class="text_2">DIGITAL</div>
 				<div class="text_3">Marketing</div>
@@ -58,7 +61,7 @@
 			</div>
 
 			<div class="mySlides fade">
-				<img src="images/slider_1.jpg" style="width: 100%">
+				<img src="images/slider_1.jpg" style="width: 100%" alt="slider logo">
 				<div class="text_1">GROW YOUR BUSINESS</div>
 				<div class="text_2">DIGITAL</div>
 				<div class="text_3">Marketing</div>
@@ -73,7 +76,7 @@
 			</div>
 
 			<div class="mySlides fade">
-				<img src="images/slider_1.jpg" style="width: 100%">
+				<img src="images/slider_1.jpg" style="width: 100%" alt="slider logo">
 				<div class="text_1">GROW YOUR BUSINESS</div>
 				<div class="text_2">DIGITAL</div>
 				<div class="text_3">Marketing</div>
@@ -137,9 +140,6 @@
 	<section class="sec1">
 		<div class="sec1_main_div">
 			<div class="sec1_2box_top">
-			<!-- 	<div>
-					<img src="images/das_bg.png">
-				</div>	 -->
 			</div>
 			<h3 class="sec1_h3">WHAT WE DO</h3>
 			<div class="sec1_container">
@@ -167,7 +167,6 @@
 			</div>
 
 			<div class="sec1_2box_bottom">
-				<!-- <img src="images/das_bg.png"> -->
 			</div>
 		</div>
 		
@@ -198,7 +197,7 @@
 				</div>
 			</div>
 			<div>
-				<img class="sec2_div_img" src="images/f1.png">
+				<img class="sec2_div_img" src="images/f1.png" alt="human image">
 			</div>
 		</div>
 	</section>
@@ -210,7 +209,7 @@
 			<iframe class="youtube-video" src="https://www.youtube.com/embed/QVFoI9HNJ34" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 		</div> -->
 		<div>
-			<img class="sec3_img" src="images/video_img.jpg">
+			<img class="sec3_img" src="images/video_img.jpg" alt="video image">
 		</div>
 		<a class="sec3_a" href="#">
 			<div class="read_more">
@@ -276,13 +275,13 @@
 	</section>
 	<section class="sec6">
 		<div class="sec6_div1">
-				<form class="sec6_div1_form">
-					<input class="sec6_input" type="text" name="myname" id="name" placeholder="Your Name" required>
-					<input class="sec6_input" type="email" name="myemail" id="email" placeholder="Email" required>
-					<input class="sec6_input" type="text" name="myphone" id="phone" placeholder="Phone number" required>
-					<textarea class="sec6_textarea" id="massage" name="massage" placeholder="Message"></textarea>
-					<input class="sec6_send" type="submit" value="SEND">
-				</form>
+			<form class="sec6_div1_form">
+				<input class="sec6_input" type="text" name="myname" id="name" placeholder="Your Name" required>
+				<input class="sec6_input" type="email" name="myemail" id="email" placeholder="Email" required>
+				<input class="sec6_input" type="text" name="myphone" id="phone" placeholder="Phone number" required>
+				<textarea class="sec6_textarea" id="massage" name="massage" placeholder="Message"></textarea>
+				<input class="sec6_send" type="submit" value="SEND">
+			</form>
 		</div>
 		<div class="sec6_div2">
 			<iframe class="map_class" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d9321.86320939558!2d106.66181382571759!3d10.783663215933121!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31752ed1b468db13%3A0x4dc88387c4ffca2e!2zMTUxIEjhu5MgQsOhIEtp4buHbiwgUGjGsOG7nW5nIDE1LCBRdeG6rW4gMTAsIFRow6BuaCBwaOG7kSBI4buTIENow60gTWluaCwgVmlldG5hbQ!5e0!3m2!1sen!2sge!4v1602506053890!5m2!1sen!2sge" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
@@ -346,6 +345,11 @@
 			</div>	
 		</div>
 	</footer>
-
+	<script type="text/javascript">
+		window.addEventListener("load", function () {
+			const loader = document.querySelector(".loader");
+    		loader.className += " hidden"; // class "loader hidden"
+			});
+</script>
 </body>
 </html>
